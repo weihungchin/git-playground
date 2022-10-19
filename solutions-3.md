@@ -1,4 +1,4 @@
-## To squash (combine) multiple commits into a single commit, we can:
+### To squash (combine) multiple commits into a single commit, we can:
 
 1. on feature branch, `git rebase -i HEAD~n`, n can be any number > 1. It means how many commits we want to squash into 1. Lets say we want to squash 3 commits, we will run `git rebase -i HEAD~3`.
 2. after step 1, you will see the scary VIM editor, press `i`, leave the first line unchanged, change the 'pick' into 'squash' for second and third line.
