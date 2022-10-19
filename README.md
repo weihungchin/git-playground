@@ -1,5 +1,10 @@
 # git-playground
 
-- Rebasing - checkout topic-1 branch
-- Rebasing with conflict - checkout topic-2 branch
-- Squashing, reordering commit - checkout topic-3 branch
+## Exercise
+- To practice, checkout each branch below, example `git checkout topic-1`
+
+There are some steps/hints on each branch on what to do.
+
+- topic-1, for rebasing
+- topic-2, for rebasing with conflicts
+- topic-3, for squashing commits
