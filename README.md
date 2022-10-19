@@ -8,4 +8,4 @@ There are some steps/hints on each branch on what to do.
 - topic-1, for rebasing
 - topic-2, for rebasing with conflicts
 - topic-3, for squashing commits
-- end 
+- end ?
