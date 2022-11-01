@@ -11,11 +11,12 @@ To go back in time to a specific commit,
 1. `git reset --hard HEAD~` to go back 1 commit in time.
 2. This will remove the last commit (together with all the changes). 
 3. This command is destructive (all uncommitted local changes is gone).
-
+4. To go back 2 commits in time (i.e remove the latest 2 commits), use `git reset --soft HEAD~2`, and so on.
 
 ### With soft reset
 1. `git reset --soft HEAD~` to go back 1 commit in ime.
 2. This will remove the latest commit in this history, but the changes are still in the staging area. This means you still have the changes, but those changes are not committed yet (not git commit yet)
+3. To go back 2 commits in time (i.e remove the latest 2 commits), use `git reset --soft HEAD~2`, and so on.
 
 ### When to use git revert, git reset or drop commit ?
 1. Is the changes you want to undo in a shared/published branch ? (eg. a commit in master branch). If yes, `git revert`.
